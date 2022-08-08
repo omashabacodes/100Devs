@@ -1,0 +1,56 @@
+/* Tells browser to ignore borders when calc'n width */
+*{
+  box-sizing: border-box;
+}
+
+/* Makes header and footer visible */
+header,footer{
+  height: 100px;
+  border: 1px solid black;
+  background: gray;
+}
+
+/* Makes the 3 vertically stacked columns visible*/
+section{
+  height: 100px;
+  width: 33.3333%;
+  background: white;
+  border: 1px solid black;
+
+  /* Re-orients columns horizontally instead */
+  float: left;
+}
+
+/* Fixes footer floating up under columns */
+footer{
+  clear: both;
+}
+
+
+/******************************************
+/* Add RESPONSIVENESS
+/*******************************************/
+
+/* Means between 0px and 600px, take effect */
+@media screen and (max-width: 600px) {
+  section{
+    background: red;
+    width: 100%;
+  }
+}
+
+/* Means between 600px and 900px, take effect */
+@media (min-width: 600px) and (max-width: 900px) {
+  section{
+    background: yellow;
+    width: 100%;
+  }
+}
+
+
+/* Means between 900px and 1200px, take effect */
+@media (min-width: 900px) and (max-width: 1200px) {
+  section{
+    background: green;
+  }
+}

@@ -1,0 +1,55 @@
+body{
+  background: rgb(138,206,234)
+}
+
+div{
+  border: 5px solid rgb(79,203,62);
+  padding: 30px;
+  margin: 15px;
+}
+h1{
+  color: white;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: white;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: rgb(79,203,62);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+img{
+  width: 200px;
+  height: 300px;
+  float: right;
+}
+
+footer{
+  clear: both;
+}
+
+li{
+  display: inline;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  text-align: center;
+}

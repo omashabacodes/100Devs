@@ -1,0 +1,19 @@
+/* Make only the h1 purple */
+h1{
+  color: purple;
+}
+
+/* Make only World and Zebra blue */
+section > h2{
+  color: blue;
+}
+
+/* Make only Unicorn and Duck red */
+article > h2{
+  color: red;
+}
+
+/* Update only Unicorn to orange using specificity */
+section > article > h2{
+  color: orange;
+}

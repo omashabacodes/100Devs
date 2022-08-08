@@ -1,0 +1,28 @@
+/* Tells browser to ignore borders when calc'n width */
+*{
+  box-sizing: border-box;
+}
+
+header,footer{
+  height: 100px;
+  background: gray;
+  border: 1px solid black;
+  clear: both;
+}
+
+section{
+  height: 500px;
+  border: 1px solid black;
+  width: 25%;
+  float: left;
+}
+
+.one,.three,.four{
+  width: 20%;
+  background: blue;
+}
+
+.two{
+  width: 40%;
+  background: green;
+}

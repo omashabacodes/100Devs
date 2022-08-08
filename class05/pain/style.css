@@ -1,0 +1,27 @@
+/* Tells browser to ignore borders when calc'n width */
+*{
+  box-sizing: border-box;
+}
+
+/* Makes header and footer visible */
+header,footer{
+  height: 100px;
+  border: 1px solid black;
+  background: gray;
+}
+
+/* Makes the 3 vertically stacked columns visible*/
+section{
+  height: 100px;
+  width: 33.3333%;
+  background: yellow;
+  border: 1px solid black;
+
+  /* Re-orients columns horizontally instead */
+  float: left;
+}
+
+/* Fixes footer floating up under columns */
+footer{
+  clear: both;
+}
